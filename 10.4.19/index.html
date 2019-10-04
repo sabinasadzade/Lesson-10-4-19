@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendors/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row mt-5">
+            <div class="col">
+                <div class="dragArea">
+                    <span class="title">Drag Area</span>
+                    <div class="number" draggable="true" id="number1" data-number="1">1 </div>
+                    <div class="number" draggable="true" id="number2" data-number="2">2</div>
+                    <div class="number" draggable="true" id="number3" data-number="3">3</div>
+                    <div class="number" draggable="true" id="number4" data-number="4">4</div>
+                    <div class="number" draggable="true" id="number5" data-number="5">5</div>
+                    <div class="number" draggable="true" id="number6" data-number="6">6</div>
+                    <div class="number" draggable="true" id="number7" data-number="7">7</div>
+                    <div class="number" draggable="true" id="number8" data-number="8">8</div>
+                    <div class="number" draggable="true" id="number9" data-number="9">9</div>
+                    <div class="number" draggable="true" id="number10" data-number="10">10</div>
+                    <div class="number" draggable="true" id="number11" data-number="11">11</div>
+                    <div class="number" draggable="true" id="number12" data-number="12">12</div>
+                </div>
+            </div>
+        </div>
+
+            
+
+        <div class="row">
+            <div class="col">
+                <div class="dropArea">
+                    <span class="title">Drop Area</span>
+                    <div data-min="1" data-max="4" class="number-box"><span class="title">1-4</span></div>
+                    <div data-min="5" data-max="8" class="number-box"><span class="title">5-8</span></div>
+                    <div data-min="9" data-max="12" class="number-box"><span class="title">9-12</span></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
